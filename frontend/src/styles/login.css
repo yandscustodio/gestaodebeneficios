@@ -1,0 +1,72 @@
+/* src/styles/login.css */
+
+/* Background com imagem */
+.auth-page-wrapper {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), 
+              url('../assets/images/auth-bg.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Overlay */
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Camada de escurecimento */
+}
+
+/* Coluna de conteúdo de fundo */
+.auth-one-bg {
+  background: #2e3b55;
+  color: white;
+  height: 100%;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Coluna do formulário */
+.col-lg-6 {
+  padding: 2rem;
+}
+
+h5 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.form-control {
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 20px 0;
+}
+
+.carousel-container {
+  margin-top: auto;
+}
